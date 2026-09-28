@@ -51,11 +51,11 @@
 -- Q4
 -- 
 -- SELECT * FROM people;
---  SELECT * FROM people WHERE department_id IS NULL;
+-- SELECT * FROM people WHERE department_id IS NULL;
 
 
 -- UPDATE people SET department_id = 2 WHERE person_id = 2;
---  UPDATE people SET department_id = 3 WHERE person_id = 3;
+-- UPDATE people SET department_id = 3 WHERE person_id = 3;
 -- UPDATE people SET department_id = 4 WHERE person_id = 4;
 -- UPDATE people SET department_id = 6 WHERE person_id = 5;
 -- UPDATE people SET department_id = 5 WHERE person_id = 6;
@@ -82,7 +82,7 @@
 -- 
 -- SELECT name
 -- FROM people
---  WHERE (gender = '2' AND age BETWEEN 20 AND 29)
+-- WHERE (gender = '2' AND age BETWEEN 20 AND 29)
 -- OR
 -- (gender = '1' AND age BETWEEN 40 AND 49);
 
@@ -96,7 +96,7 @@
 -- Q9
 -- 
 -- SELECT AVG(age) AS average_age
---  FROM people
+-- FROM people
 -- WHERE department_id = '2'
 -- AND gender = '2';
 
