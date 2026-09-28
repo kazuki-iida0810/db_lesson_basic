@@ -104,7 +104,7 @@
 -- Q10
 -- 
 -- SELECT departments.name AS d,  
--- people.name as p,
+-- people.name AS p,
 -- reports.content AS r
 -- FROM people
 -- INNER JOIN
